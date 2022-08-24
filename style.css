@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.item {
+    width: fit-content;
+    height: fit-content;
+    margin: 50px auto;
+}
+
+.owl-theme .owl-nav{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.owl-theme .owl-nav [class*=owl-] {
+    font-size: 60px!important;
+}
